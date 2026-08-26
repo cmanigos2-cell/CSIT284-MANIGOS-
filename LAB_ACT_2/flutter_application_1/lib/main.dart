@@ -13,7 +13,22 @@ void main (){
             ])
           ),
           child: Center(
-            child: Text("Hello World"))),
+            child: column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                 Image.asset(width: 200, 'assets/dice-images/dice-2.png')
+            Textbutton(onPressed: () {}, child: Text(
+              style:TextStyle(
+                
+              )
+            "Roll Dice"
+            )
+            ),
+              ],
+            
+            ),
+              ),
+             ),
             ),
           ),
         );
