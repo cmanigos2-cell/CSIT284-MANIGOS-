@@ -16,7 +16,7 @@ class _DiceRollerState extends State<DiceRoller> {
   void rollDice() {
     setState((){
       var num = randomizer.nextInt(6) +1;
-     currentDiceImage = 'assets/dice-images/dice-4.png';
+     currentDiceImage = 'assets/dice-images/dice-$num.png';
     });
   }
  @override
